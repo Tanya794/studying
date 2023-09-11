@@ -1,0 +1,13 @@
+def pairs_sum_to_target(list1, list2, target):
+    
+    new_lst = []
+
+    for i, num1 in enumerate(list1):
+        for d, num2 in enumerate(list2):
+            if num1 + num2 == target:
+                lst = []
+                lst.append(i)
+                lst.append(d)
+                new_lst.append(lst)
+
+    return new_lst
