@@ -11,3 +11,4 @@ def pairs_sum_to_target(list1, list2, target):
                 new_lst.append(lst)
 
     return new_lst
+
